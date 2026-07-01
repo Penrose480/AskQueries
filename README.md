@@ -7,7 +7,7 @@ A project which summarizes text.
 You need to have Python installed.
 
 ```bash
-#Install Pytorch
+# Install Pytorch
 pin install torch 
 # Install transformers
 pip install transformers
