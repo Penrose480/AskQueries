@@ -1,10 +1,14 @@
-#from transformers import pipeline
-import sys
+from transformers import pipeline
 
 # parse input
-text = str(sys.argv[1:]).split())
-#summarizer = pipeline("summarizer")
-#raw_output = summarizer(text)
-#parse output
-'''print(raw_output[0]["summary_text"])
-    pass'''
+inp = input()  
+ans = pipeline("question-answering")
+context = input("Enter the doc for context: ")
+while (True):
+    question = input("Ask a question about the doc (q to quit): ")
+    if question == "q": break
+    raw_output = ans (
+            question=question,
+            context=context
+            )
+    print(raw_output['answer'])

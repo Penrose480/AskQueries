@@ -1,10 +1,10 @@
 # ubiquitous-eureka
 
-A project which summarizes text.
+A project which answers questions text.
 
 ## Dependencies
 
-You need to have Python installed.
+You need to have Python and pip installed.
 
 ```bash
 # Install Pytorch
@@ -15,5 +15,5 @@ pip install transformers
 ## Running
 
 ```bash
-python3 main.py [INSERT YOUR TEXT HERE]
+python3 main.py
 ```
