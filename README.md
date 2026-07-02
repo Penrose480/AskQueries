@@ -1,6 +1,6 @@
 # ubiquitous-eureka
 
-A project which answers questions text.
+A project which answers questions from text.
 
 ## Dependencies
 
