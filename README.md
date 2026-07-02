@@ -1,4 +1,4 @@
-# ubiquitous-eureka
+# AskQueries
 
 A project which answers questions from text.
 
